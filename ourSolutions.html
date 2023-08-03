@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilder Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/0a25bc34dd.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0a25bc34dd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="images/logo-clear.png" alt=""> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="ourSolutions.html">OUR SOLUTIONS</a></li>
+                    <li><a href="ourTeam.html">TEAM</a></li>
+                    <li><a href="Pricing.html">PRICING</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Solutions</h1>
+    </section>
+
+   <!--Solutions-->
+
+   <section class="solutions">
+
+    <h1>Our Solutions</h1>
+    <p>The following are the suite of solutions we offer</p>
+
+
+
+    <div class="row">
+        <div class="solutions-col">
+            <h3>Social Media Marketing</h3>
+            <p>At Gilder Agency, we specialize in helping businesses harness the power of social media to connect
+                with their target audience and drive results. Our expert team of social media marketers understands
+                the intricacies of various platforms and develops tailored strategies to maximize your brand's
+                online presence. From creating compelling content to managing campaigns and analyzing data, we
+                provide end-to-end social media marketing solutions that enhance brand visibility, engage customers,
+                and generate leads. With our proven track record of delivering measurable results, we are dedicated
+                to helping your business thrive in the digital landscape.</p>
+        </div>
+
+        <div class="solutions-col">
+            <h3>Web Design And Development</h3>
+            <p>A well-designed and functional website is the cornerstone of a successful online presence. Gilder
+                Agency specializes in web development, creating visually stunning, user-friendly websites that
+                captivate visitors and drive business growth. Our team of skilled web developers leverages the
+                latest technologies and best practices to build responsive, mobile-friendly websites that deliver an
+                exceptional user experience. Whether you need a simple brochure website, an e-commerce platform, or
+                a complex web application, we have the expertise to turn your vision into reality and provide you
+                with a powerful online platform that sets you apart from the competition.</p>
+        </div>
+
+
+        <div class="solutions-col">
+            <h3>Digital Marketing </h3>
+            <p>In today's digital world, having a strong online presence is crucial for business success. At Gilder
+                Agency, we offer comprehensive digital marketing services to help businesses establish and grow
+                their online footprint. Our team of digital marketing experts combines cutting-edge strategies,
+                data-driven insights, and creative thinking to craft customized campaigns that drive traffic,
+                increase conversions, and boost your ROI. Whether it's search engine optimization (SEO),
+                pay-per-click (PPC) advertising, email marketing, or content marketing, we have the expertise to
+                create impactful digital marketing solutions that align with your business goals.</p>
+        </div>
+
+
+    </div>
+
+    <div class="row">
+
+
+        <div class="solutions-col " >
+            <h3>Software Development</h3>
+            <p>At Gilder Agency, we understand that off-the-shelf software solutions may not always meet the unique
+                needs of your business. That's why we offer customized software development services tailored to
+                your specific requirements. Our team of experienced software developers utilizes the latest
+                technologies and agile methodologies to create scalable and robust software solutions that
+                streamline your business processes, increase productivity, and drive innovation. From software
+                design and development to testing and maintenance, we are committed to delivering high-quality,
+                tailored software solutions that propel your business forward in the digital age</p>
+        </div>
+
+
+    </div>
+</section>
+
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Gilder Agency is a leading digital solutions provider, specializing in social media marketing, digital
+            marketing, web development, and software development. We empower businesses to achieve their online goals
+            through innovative strategies, exceptional creativity, and a relentless pursuit of excellence. </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Developed by Gilder All rights reserved 2023</p>
+    </section>
+
+    <!--Javascript for Toggle Menu---->
+    <script>
+        var navlinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

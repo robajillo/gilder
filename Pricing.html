@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilder Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/0a25bc34dd.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0a25bc34dd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="images/logo-clear.png" alt=""> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="ourSolutions.html">OUR SOLUTIONS</a></li>
+                    <li><a href="ourTeam.html">TEAM</a></li>
+                    <li><a href="Pricing.html">PRICING</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Pricing</h1>
+    </section>
+
+    <!--Solutions-->
+
+    <section class="solutions">
+
+        <h1>Our Solutions Pricing</h1>
+
+
+        <div class="row">
+             <div class="solutions-col">
+                <h3> Portfolio Website</h3>
+                <h3>Ksh 30,000</h3>
+
+                <p>A four page website aimed at ;<br>
+                <ul>
+                    <li>showcasing what your brand deals with.</li>
+                    <li> Free Logo</li>
+                    <li> Free Socials Setup</li>
+                    <li>Free Hosting for one month</li>
+                    <li>Free WhatsApp API</li>
+                </ul>
+                </p>
+            </div> 
+            <div class="solutions-col">
+                <h3> Multi-Page Website</h3>
+                <h3>Ksh 50,000</h3>
+
+                <p>A website with multiple pages entailing brand offering and article and blog sections. ;<br>
+                <ul>
+                    <li>showcasing what your brand deals with.</li>
+                    <li> Free Logo</li>
+                    <li> Free Socials Setup</li>
+                    <li>Free Hosting for one month</li>
+                    <li>Free WhatsApp API</li>
+                    <li>Free Google SEO</li>
+                    <li>Image optimization</li>
+                    <li>Website Bots</li>
+
+                </ul>
+                </p>
+            </div>
+
+          
+
+
+            <div class="solutions-col">
+                <h3>Ecommerce Website</h3>
+                <h3>Ksh 80,000</h3>
+
+                <p>An online e-commerce platform for selling products and services;<br>
+                <ul>
+                    <li>showcasing what your brand deals with.</li>
+                    <li> Free Logo</li>
+                    <li> Free Socials Setup</li>
+                    <li>Free Hosting for one month</li>
+                    <li>Free WhatsApp API</li>
+                    <li>Free Google SEO</li>
+                    <li>Image optimization</li>
+                    <li>Website Bots</li>
+                    <li>free Advertising(1Y)</li>
+                </ul>
+                </p>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+
+
+            <div class="solutions-col ">
+                <h3> Digital Marketing</h3>
+                <h3>Ksh 10,000 - ksh 25,000</h3>
+
+                <p>Marketing your brand and products online ;<br>
+                <ul>
+                    <li>Facebook Ads.</li>
+                    <li> Instagram Ads</li>
+                    <li> Google Analytics</li>
+                    <li>Audits</li>
+                    
+                </ul>
+                </p>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Gilder Agency is a leading digital solutions provider, specializing in social media marketing, digital
+            marketing, web development, and software development. We empower businesses to achieve their online goals
+            through innovative strategies, exceptional creativity, and a relentless pursuit of excellence. </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Developed by Gilder All rights reserved 2023</p>
+    </section>
+
+    <!--Javascript for Toggle Menu---->
+    <script>
+        var navlinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
